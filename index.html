@@ -1,0 +1,39 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="main.css">
+    <script src="index.js"></script>
+
+  </head>
+  <body>
+    <div class="main-frame">
+      <h1 id="title">Tick Tac Toe</h1>
+
+        <div class="wrapper">
+            <button id="reset" class="button" onclick="reset()">Reset</button>
+        </div>
+
+      <table id="table" align="center">
+        <tr>
+          <td id="tl" class="cell" onclick="ticTacToe(this)">
+          <td id="tc" class="cell" onclick="ticTacToe(this)">
+          <td id="tr" class="cell" onclick="ticTacToe(this)">
+        </tr>
+        <tr>
+          <td id="ml" class="cell" onclick="ticTacToe(this)">
+          <td id="mc" class="cell" onclick="ticTacToe(this)">
+          <td id="mr" class="cell" onclick="ticTacToe(this)">
+        </tr>
+        <tr>
+          <td id="bl" class="cell" onclick="ticTacToe(this)">
+          <td id="bc" class="cell" onclick="ticTacToe(this)">
+          <td id="br" class="cell" onclick="ticTacToe(this)">
+        </tr>
+      <!-- <div>
+        <div id="ball"></div>
+        <div id="centerBottom"></div>
+        <div id="centerUpperBottom"></div>
+      </div>
+      <div id="topRight"></div>
+    </div> -->
+  </body>
+</html>
